@@ -1,0 +1,30 @@
+{{- $feedPage := .Site.Params.atom_feed.path | default "/" | .Site.GetPage }}
+{{- $feed := $feedPage.OutputFormats.Get "RSS" }}
+{{- $feedEnabled := and $feed (not .Site.Params.atom_feed.hide) }}
+
+{{- if or .Site.Menus.follow $feedEnabled }}
+<div class="page__footer-follow">
+    <ul class="social-icons">
+        <li><strong>{{ i18n "followLabel" }}</strong></li>
+
+    {{- range .Site.Menus.follow }}
+        {{- $icon := .Params.icon | default "fas fa-link" }}
+        <li><a href="{{ .URL }}" rel="nofollow noopener noreferrer">
+            <i class="{{ $icon }}" aria-hidden="true"></i>
+            {{- if .Identifier }}
+            {{ i18n .Identifier | default .Name }}
+            {{- else }}
+            {{ .Name }}
+            {{- end }}
+        </a></li>
+    {{- end }}
+
+    {{- if $feedEnabled }}
+        <li><a href="{{ $feed.Permalink }}">
+            <i class="fas fa-fw fa-rss-square" aria-hidden="true"></i>
+            {{ i18n "feedLabel" }}
+        </a></li>
+    {{- end }}
+    </ul>
+</div>
+{{- end }}

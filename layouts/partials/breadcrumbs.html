@@ -1,0 +1,25 @@
+<nav class="breadcrumbs">
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+        {{- range .Ancestors.Reverse }}
+            {{- /* Do not add "Collections" or "Posts" to the breadcrumb */}}
+            {{- if not (and
+                (and .Parent .Parent.IsHome)
+                (.Section | in (slice "collections" "posts"))
+            )}}
+
+            {{- partial "breadcrumbs-item.html" . }}
+            <span class="sep" aria-hidden="true">/</span>
+
+            {{- end }}
+        {{- end }}
+        <li class="current" aria-current="page">{{ markdownify .Title }}</li>
+    </ol>
+</nav>
+
+{{- define "partials/breadcrumbs-item.html" }}
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+    <a href="{{ .RelPermalink }}" itemprop="item">
+        <span itemprop="name">{{ markdownify .Title }}</span>
+    </a>
+</li>
+{{- end }}

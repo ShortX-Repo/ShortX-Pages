@@ -1,0 +1,11 @@
+follow:
+  - name: "GitHub"
+    params:
+      icon: 'fab fa-fw fa-github'
+    url: 'https://github.com/ShortX-Repo'
+
+navigation:
+  - pageRef: '/tags'
+    weight: 1
+  - pageRef: '/categories'
+    weight: 2

@@ -1,0 +1,12 @@
+en:
+  languageName: "English"
+  weight: 1
+  contentDir: 'content/en'
+  title: "ShortX"
+zh:
+  languageName: "简体中文"
+  weight: 2
+  contentDir: 'content/zh'
+  title: "ShortX"
+  hasCJKLanguage: true
+  summaryLength: 210

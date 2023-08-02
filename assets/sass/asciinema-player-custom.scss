@@ -1,0 +1,21 @@
+$terminal-background-color: #121314;
+
+// Limit maximum width of players
+.asciinema-player-container {
+    margin: auto;
+    max-width: 596px;
+}
+
+.ap-terminal {
+    // Adjust the style of selected text
+    *::selection {
+        background-color: #ffffff;
+        color: $terminal-background-color;
+    }
+
+    // Disable text animations in asciinema terminals
+    span {
+        -webkit-transition: unset;
+        transition: unset;
+    }
+}

@@ -1,0 +1,9 @@
+{{- $pluginsGlob := "js/plugins/*.js" }}
+{{- range resources.Match $pluginsGlob }}
+{{- $plugin := . | resources.Minify | resources.Fingerprint }}
+<script src="{{ $plugin.RelPermalink }}"
+        integrity="{{ $plugin.Data.Integrity }}"></script>
+{{- end }}
+
+<script src="{{ relURL "js/minimal-mistakes.js" }}"></script>
+<script src="{{ relURL "js/custom.js" }}"></script>

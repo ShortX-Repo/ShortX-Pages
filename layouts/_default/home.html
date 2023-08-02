@@ -1,0 +1,34 @@
+{{- define "layout" -}}
+archive
+{{- end -}}
+
+{{- define "main" }}
+<div id="main" role="main">
+    <div class="archive">
+        <h1 id="page-title" class="page__title">{{ .Title }}</h1>
+        {{ .Content }}
+
+        <h2 class="archive__subtitle">{{ i18n "collections" }}</h2>
+        <ul>
+            {{- range (.GetPage "/collections").Pages }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{- end }}
+        </ul>
+
+        <h2 class="archive__subtitle">{{ i18n "recentPosts" }}</h2>
+        {{- $entriesLayout := .Param "entries_layout" | default "list" }}
+        {{- $paginator := .Paginate (where
+            .Site.RegularPages "Section" "posts") }}
+        <div class="entries-{{ $entriesLayout }}">
+        {{- range $paginator.Pages }}
+        {{- .Scratch.Set "type" $entriesLayout }}
+        {{- partial "archive-single.html" . }}
+        {{- .Scratch.Delete "type" }}
+        {{- end }}
+        </div>
+        {{- .Scratch.Set "paginator" $paginator }}
+        {{- partial "paginator.html" . }}
+        {{- .Scratch.Delete "paginator" }}
+    </div>
+</div>
+{{- end }}

@@ -1,0 +1,17 @@
+{{/*
+For the page in the context, returns its collection's home page if it is in a
+collection; otherwise, returns a false value.
+*/}}
+
+{{- $collectionHomeDepth := 2 }}
+
+{{- $collection := false }}
+{{- if eq .Section "collections" }}
+    {{- if eq (len .Ancestors) $collectionHomeDepth }}
+        {{- /* Collection home page */}}
+        {{- $collection = . }}
+    {{- else }}
+        {{- $collection = index .Ancestors.Reverse $collectionHomeDepth }}
+    {{- end }}
+{{- end }}
+{{- return $collection }}
