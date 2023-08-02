@@ -24,5 +24,5 @@ lastmod: 2022-12-01
 
 [Github Release](https://github.com/ShortX-Repo/ShortX-Release)，国内版本Apk归档于此
 
-[Telegram频道]()，提新需求，讨论分享指令在此
+[Telegram频道](https://t.me/shortxmod)，提新需求，讨论分享指令在此
 

@@ -24,4 +24,4 @@ Compared with other similar apps, ShortX provides more system-level triggers and
 
 [Github Release](https://github.com/ShortX-Repo/ShortX-Release) the domestic version Apk is archived here
 
-[Telegram channel]() raise new requirements, discuss and share Rules here
+[Telegram channel](https://t.me/shortxmod) raise new requirements, discuss and share Rules here
