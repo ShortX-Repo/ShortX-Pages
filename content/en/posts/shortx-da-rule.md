@@ -1,27 +1,25 @@
 ---
-title: "一键指令和自动指令"
+title: "Direct action and Rule"
 categories:
-  - 教程
+  - Tutorial
 toc: true
 lastmod: 2023-01-03
 ---
 
+This article introduces what is Direct action and Rule. And several concepts involved in App.
 
-本文介绍一键指令和自动指令分别是什么。以及App中涉及到的几个概念。
+**trigger**
+A trigger, as the name suggests, is used to trigger something, just like a signal gun for a race, and the signal is the trigger for the start of the race.
 
-**触发器**
-触发器，顾名思义，是用来触发某个东西的，就好比赛跑的信号枪，信号就是比赛开始的触发器。
+**condition**
+Conditions, as the name suggests, are the conditions that must be met before doing things.
 
-**条件**
-条件，顾名思义，就是做事之前要具备的条件。
+**action**
+Actions are things to do. For example, when the signal gun is fired in a track and field competition, you have to run. Running is the action here.
 
-**动作**
-动作，就是要做的事，例如，田径比赛的信号枪一响，就要跑步，跑步就是这里的动作。
+**Direct action**
+A Direct action can contain multiple actions, and complex functions can be realized by combining simple actions.
 
-**一键指令**
-一键指令可以包含多个动作，可以通过组合简单的动作来实现复杂的功能。
-
-**自动指令**
-自动指令包含触发器、条件（可选）、动作，是指某个事件触发，且满足某个条件时（也可以无条件），要做什么事情。
-这个概念对应到赛跑里，信号枪就是触发器，无条件，动作就是跑。
-
+**Rule**
+Rule include triggers, conditions (optional), and actions, which refer to what to do when a certain event is triggered and a certain condition is met (or unconditional).
+This concept corresponds to the running, the flare gun is the trigger, unconditionally, the action is to run.
