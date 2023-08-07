@@ -51,5 +51,19 @@ android.provider.Settings$System.putFloat(context.contentResolver, "font_scale",
 
 
 
+**获取Wifi密码**
+
+```java
+wifiPasswords = "";
+
+configs = context.getSystemService(context.WIFI_SERVICE).getPrivilegedConfiguredNetworks();
+    
+foreach(conf : configs) {
+    wifiPasswords += conf.SSID + "-->" + conf.preSharedKey + "\n";
+}
+          
+wifiPasswords;
+```
+
 
 

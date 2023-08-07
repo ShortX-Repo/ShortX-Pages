@@ -40,3 +40,18 @@ android.provider.Settings$System.getFloat(context.contentResolver, "font_scale")
 ```java
 android.provider.Settings$System.putFloat(context.contentResolver, "font_scale", 1.0)
 ```
+
+**Get wifi passwords**
+
+```java
+wifiPasswords = "";
+
+configs = context.getSystemService(context.WIFI_SERVICE).getPrivilegedConfiguredNetworks();
+    
+foreach(conf : configs) {
+    wifiPasswords += conf.SSID + "-->" + conf.preSharedKey + "\n";
+}
+          
+wifiPasswords;
+```
+
