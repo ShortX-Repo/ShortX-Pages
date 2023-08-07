@@ -6,8 +6,10 @@ toc: true
 lastmod: 2023-01-05
 ---
 
-MVEL表达式能实现很多功能，以下是常用的表达式。
+MVEL表达式能实现很多功能，因为它可以调用Android SDK，而且ShortX还为MVEL执行器添加了Android Context，有了这两个条件，它能实现的功能就非常多了。
 
+MVEL表达式[语法官方网站](http://mvel.documentnode.com/#language-guide-for-2.0)
+Andrid SDK [API 文档](https://developer.android.com/reference/packages)
 
 
 ### Webview 相关
