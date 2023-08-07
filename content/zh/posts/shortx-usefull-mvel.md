@@ -33,5 +33,23 @@ android.webkit.WebViewFactory.getUpdateService().changeProviderAndSetting("packa
 
 
 
+### 系统设置相关
+
+**获取字体缩放**
+
+```java
+android.provider.Settings$System.getFloat(context.contentResolver, "font_scale")
+```
+
+**设置字体缩放**
+
+默认是1.0f，表示缩放倍数
+
+```java
+android.provider.Settings$System.putFloat(context.contentResolver, "font_scale", 1.0)
+```
+
+
+
 
 

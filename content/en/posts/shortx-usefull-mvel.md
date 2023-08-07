@@ -24,3 +24,19 @@ android.webkit.WebViewFactory.getUpdateService().getCurrentWebViewPackageName()
 android.webkit.WebViewFactory.getUpdateService().changeProviderAndSetting("package_name")
 ```
 
+
+
+### System Settings
+
+**Get font scale**
+
+```java
+android.provider.Settings$System.getFloat(context.contentResolver, "font_scale")
+```
+
+**Set font scale**
+
+
+```java
+android.provider.Settings$System.putFloat(context.contentResolver, "font_scale", 1.0)
+```
