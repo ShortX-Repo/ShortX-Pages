@@ -45,8 +45,6 @@ lastmod: 2023-01-01
 
 [Github Release](https://github.com/ShortX-Repo/ShortX-Release)，国内版本Apk归档于此
 
-[电报](https://t.me/shortxmod/1)，提需求，报bug，用法讨论，闲聊在此
-
 
 
 ## 安装与激活ShortX
@@ -61,7 +59,7 @@ lastmod: 2023-01-01
 
 
 
-![Image]({{< static-path img lsp.png l10n >}})
+<img src="C:\Users\TORNACO\Documents\软著\Screenshot_20230813_103051.png" alt="Screenshot_20230813_103051" style="zoom: 25%;" />
 
 
 
@@ -153,7 +151,7 @@ lastmod: 2023-01-01
 
 
 
-![Image]({{< static-path img create_da.png l10n >}})
+<img src="C:\Users\TORNACO\Documents\软著\Screenshot_20230813_103539.png" alt="Screenshot_20230813_103539" style="zoom: 25%;" /><img src="C:\Users\TORNACO\Documents\软著\Screenshot_20230813_110319.png" alt="Screenshot_20230813_110319" style="zoom: 25%;" />
 
 
 
@@ -193,7 +191,7 @@ lastmod: 2023-01-01
 
 
 
-![Image]({{< static-path img create_rule.png l10n >}})
+<img src="C:\Users\TORNACO\Documents\软著\Screenshot_20230813_103451.png" alt="Screenshot_20230813_103451" style="zoom: 25%;" /><img src="C:\Users\TORNACO\Documents\软著\Screenshot_20230813_110402.png" alt="Screenshot_20230813_110402" style="zoom: 25%;" />
 
 
 
