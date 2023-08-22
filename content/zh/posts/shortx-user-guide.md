@@ -35,7 +35,7 @@ lastmod: 2023-01-01
 3. 发现：用户可浏览、导入预置指令。
 
 
-![Image]({{< static-path img home_rule.png l10n >}})
+<img src="{{< static-path img context-data-var.png l10n >}}" alt="Screenshot_20230813_103201" style="zoom: 25%;" />
 
 
 
