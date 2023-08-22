@@ -1,13 +1,3 @@
----
-title: "用户手册"
-categories:
-  - 教程
-toc: true
-lastmod: 2023-01-01
----
-
-
-
 # ShortX用户手册
 
 **本使用手册为 ShortX 作者版权所有。**
