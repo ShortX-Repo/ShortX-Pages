@@ -4,7 +4,7 @@ title: 首页
 heroImage: /images/logo.png
 actions:
   - text: 快速上手
-    link: /zh-cn/guide/install_guide
+    link: /zh/guide/install_guide
     type: primary
 footer: ShortX and Thanox are both developed by Tornaco.
 ---

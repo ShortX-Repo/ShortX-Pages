@@ -27,8 +27,8 @@ export default {
                 warning: 'Notice',
                 danger: 'Pay Attention',
             },
-            '/zh-cn/': {
-                navbar: navBarItems['/zh-cn/'],
+            '/zh/': {
+                navbar: navBarItems['/zh/'],
                 selectLanguageText: '简体中文 (CN)',
                 notFound: ['这里什么都没有', '我们怎么到这来了？', '这是一个 404 页面', '看起来我们进入了错误的链接'],
                 backToHome: '回到首页',
@@ -48,7 +48,7 @@ export default {
             isSearchable: (page) => page.path !== '/',
             locales: {
                 '/en/': { placeholder: 'Search' },
-                '/zh-cn/': { placeholder: '搜索' }
+                '/zh/': { placeholder: '搜索' }
             }
         })
     ]

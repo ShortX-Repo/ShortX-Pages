@@ -30,7 +30,7 @@ export const configs = {
                 lang: 'en-US',
                 description: 'System-level automated task tool'
             },
-            '/zh-cn/': {
+            '/zh/': {
                 lang: 'zh-CN',
                 description: '系统级自动化指令工具'
             }
@@ -66,7 +66,7 @@ export const navBarItems = {
         text: 'Contact Us',
         link: i18n.string(navigationLinks.about[0], 'en')
     }],
-    '/zh-cn/': [{
+    '/zh/': [{
         text: '导航',
         children: [{
             text: '入门',
@@ -81,13 +81,13 @@ export const navBarItems = {
         }, {
             text: '关于',
             children: [
-                { text: '高级版订阅', link: i18n.string(navigationLinks.about[1], 'zh-cn') },
-                { text: '联系我们', link: i18n.string(navigationLinks.about[0], 'zh-cn') },
+                { text: '高级版订阅', link: i18n.string(navigationLinks.about[1], 'zh') },
+                { text: '联系我们', link: i18n.string(navigationLinks.about[0], 'zh') },
             ]
         }]
     }, {
         text: '联系我们',
-        link: i18n.string(navigationLinks.about[0], 'zh-cn')
+        link: i18n.string(navigationLinks.about[0], 'zh')
     }]
 };
 
@@ -101,13 +101,13 @@ export const sideBarItems = {
         collapsible: true,
         children: i18n.array(navigationLinks.about, 'en')
     }],
-    '/zh-cn/': [{
+    '/zh/': [{
         text: '入门',
         collapsible: true,
-        children: i18n.array(navigationLinks.start, 'zh-cn')
+        children: i18n.array(navigationLinks.start, 'zh')
     }, {
         text: '关于',
         collapsible: true,
-        children: i18n.array(navigationLinks.about, 'zh-cn')
+        children: i18n.array(navigationLinks.about, 'zh')
     }]
 };

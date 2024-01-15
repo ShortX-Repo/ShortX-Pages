@@ -11,6 +11,6 @@ actions:
     link: /en/
     type: secondary
   - text: 简体中文
-    link: /zh-cn/
+    link: /zh/
     type: secondary
 ---
