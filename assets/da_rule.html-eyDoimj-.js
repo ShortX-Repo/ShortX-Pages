@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-170e641b","path":"/en/guide/da_rule.html","title":"一键指令和自动指令","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1705305169000,"contributors":[{"name":"Tornaco","email":"Tornaco@163.com","commits":1}]},"filePathRelative":"en/guide/da_rule.md"}');export{e as data};

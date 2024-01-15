@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2347de4b","path":"/en/guide/translate.html","title":"贡献翻译","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1705305169000,"contributors":[{"name":"Tornaco","email":"Tornaco@163.com","commits":1}]},"filePathRelative":"en/guide/translate.md"}');export{e as data};
