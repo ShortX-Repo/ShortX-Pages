@@ -4,6 +4,9 @@ const navigationLinks = {
     start: [
         '/guide/install_guide',
         '/guide/da_rule',
+        '/guide/fact',
+        '/guide/da',
+        '/guide/rule',
         '/guide/var',
         '/guide/usefull_mvel',
         '/guide/online_repo',
@@ -50,10 +53,13 @@ export const navBarItems = {
             children: [
                 { text: 'Introduce', link: i18n.string(navigationLinks.start[0], 'en') },
                 { text: 'Direct and Rule', link: i18n.string(navigationLinks.start[1], 'en') },
-                { text: 'Vars', link: i18n.string(navigationLinks.start[2], 'en') },
-                { text: 'MVELs', link: i18n.string(navigationLinks.start[3], 'en') },
-                { text: 'Online rules', link: i18n.string(navigationLinks.start[4], 'en') },
-                { text: 'Translate', link: i18n.string(navigationLinks.start[5], 'en') },
+                { text: 'Fact', link: i18n.string(navigationLinks.start[2], 'en') },
+                { text: 'Direct', link: i18n.string(navigationLinks.start[3], 'en') },
+                { text: 'Rule', link: i18n.string(navigationLinks.start[4], 'en') },
+                { text: 'Vars', link: i18n.string(navigationLinks.start[5], 'en') },
+                { text: 'MVELs', link: i18n.string(navigationLinks.start[6], 'en') },
+                { text: 'Online rules', link: i18n.string(navigationLinks.start[7], 'en') },
+                { text: 'Translate', link: i18n.string(navigationLinks.start[8], 'en') },
             ]
         }, {
             text: 'About',
@@ -73,10 +79,13 @@ export const navBarItems = {
             children: [
                 { text: '安装与激活', link: i18n.string(navigationLinks.start[0], 'en') },
                 { text: '一键指令和自动指令', link: i18n.string(navigationLinks.start[1], 'en') },
-                { text: '变量', link: i18n.string(navigationLinks.start[2], 'en') },
-                { text: 'MVEL表达式', link: i18n.string(navigationLinks.start[3], 'en') },
-                { text: '贡献线上指令', link: i18n.string(navigationLinks.start[4], 'en') },
-                { text: '贡献翻译', link: i18n.string(navigationLinks.start[5], 'en') },
+                { text: '触发器', link: i18n.string(navigationLinks.start[2], 'en') },
+                { text: '一键指令', link: i18n.string(navigationLinks.start[3], 'en') },
+                { text: '自动指令', link: i18n.string(navigationLinks.start[4], 'en') },
+                { text: '变量', link: i18n.string(navigationLinks.start[5], 'en') },
+                { text: 'MVEL表达式', link: i18n.string(navigationLinks.start[6], 'en') },
+                { text: '贡献线上指令', link: i18n.string(navigationLinks.start[7], 'en') },
+                { text: '贡献翻译', link: i18n.string(navigationLinks.start[8], 'en') },
             ]
         }, {
             text: '关于',
