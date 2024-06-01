@@ -9,6 +9,7 @@ const navigationLinks = {
         '/guide/rule',
         '/guide/var',
         '/guide/usefull_mvel',
+        '/guide/fact_hook',
         '/guide/online_repo',
         '/guide/translate',
     ],
@@ -58,8 +59,9 @@ export const navBarItems = {
                 { text: 'Rule', link: i18n.string(navigationLinks.start[4], 'en') },
                 { text: 'Vars', link: i18n.string(navigationLinks.start[5], 'en') },
                 { text: 'MVELs', link: i18n.string(navigationLinks.start[6], 'en') },
-                { text: 'Online rules', link: i18n.string(navigationLinks.start[7], 'en') },
-                { text: 'Translate', link: i18n.string(navigationLinks.start[8], 'en') },
+                { text: 'Method hook', link: i18n.string(navigationLinks.start[7], 'en') },
+                { text: 'Online rules', link: i18n.string(navigationLinks.start[8], 'en') },
+                { text: 'Translate', link: i18n.string(navigationLinks.start[9], 'en') },
             ]
         }, {
             text: 'About',
@@ -84,8 +86,9 @@ export const navBarItems = {
                 { text: '自动指令', link: i18n.string(navigationLinks.start[4], 'en') },
                 { text: '变量', link: i18n.string(navigationLinks.start[5], 'en') },
                 { text: 'MVEL表达式', link: i18n.string(navigationLinks.start[6], 'en') },
-                { text: '贡献线上指令', link: i18n.string(navigationLinks.start[7], 'en') },
-                { text: '贡献翻译', link: i18n.string(navigationLinks.start[8], 'en') },
+                { text: 'Method hook', link: i18n.string(navigationLinks.start[7], 'en') },
+                { text: '贡献线上指令', link: i18n.string(navigationLinks.start[8], 'en') },
+                { text: '贡献翻译', link: i18n.string(navigationLinks.start[9], 'en') },
             ]
         }, {
             text: '关于',
