@@ -45,3 +45,5 @@ param.args[1] = 参数2
 ...
 ```
 
+> 要修改参数，请将Hook Before/After 选项设置为Before
+
