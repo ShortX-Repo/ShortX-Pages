@@ -31,5 +31,18 @@ param.result
 param.thisObject
 ```
 
+修改返回值
+```java
+param.result = 返回值
+```
+
+
+修改参数
+```java
+param.args[0] = 参数1
+param.args[1] = 参数2
+...
+```
+
 
 
