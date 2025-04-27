@@ -63,3 +63,19 @@ wifiPasswords;
 
 
 
+### 在MVEL里执行Action（动作）
+
+1. 先定义动作参数，可参考文档里的动作模型来定义：
+[查看我的 Javadoc 文档](../../javadoc/index.html)
+
+例如：
+```java
+xxxx
+```
+
+2. 调用actionEvaluator来执行动作
+
+例如：
+```java
+xxxx
+```
