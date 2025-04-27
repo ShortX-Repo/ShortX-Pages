@@ -63,7 +63,7 @@ wifiPasswords;
 
 
 
-[查看我的 Javadoc 文档](./javadoc/index.html)
+[查看我的 Javadoc 文档](/javadoc/index.html)
 
 
 ### END
