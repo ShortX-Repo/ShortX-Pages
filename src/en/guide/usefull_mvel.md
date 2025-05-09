@@ -100,12 +100,15 @@ shortx.writeGlobalVarWithOp("varName", "value", 3);
 ```
 
 
+
 ### 在MVEL里执行Action（动作）
 
 1. 先定义动作参数，可参考文档里的动作模型来定义：
-[查看我的 Javadoc 文档](../../javadoc/index.html){:target="_blank"}
 
-2. 调用actionEvaluator来执行动作
+<a href="../../javadoc/index.html" target="_blank">查看 Javadoc</a>
+
+
+3. 调用actionEvaluator来执行动作
 
 例如：
 

@@ -63,6 +63,44 @@ wifiPasswords;
 
 
 
+### 常用ShortX API
+
+MVEL里还支持常用的ShortX 操作，通过 `shortx`来调用。
+
+目前支持的API如下：
+
+#### 读取全局变量
+```kotlin
+shortx.readGlobalVar("varName");
+```
+#### 写入全局变量
+```kotlin
+shortx.writeGlobalVarWithOp("varName", "value", 3);
+```
+其中第三个参数代表操作类型：
+
+```
+    // Op value: one of below op enum numbers, e.g. 3 for override.
+    //    WriteGlobalVarOp_Auto(0),
+    //    WriteGlobalVarOp_AppendToLast(1),
+    //    WriteGlobalVarOp_AppendToFirst(2),
+    //    WriteGlobalVarOp_Override(3),
+    //    WriteGlobalVarOp_DeleteValue(4),
+    //    WriteGlobalVarOp_DeleteLast(5),
+    //    WriteGlobalVarOp_DeleteFirst(6),
+    //    WriteGlobalVarOp_Clear(7),
+    //    WriteGlobalVarOp_Reverse(8),
+    //    WriteGlobalVarOp_Shuffle(9),
+    //    WriteGlobalVarOp_Plus1(10),
+    //    WriteGlobalVarOp_Minus1(11),
+    //    WriteGlobalVarOp_Invert(12),
+    //    WriteGlobalVarOp_PlusDelta(13),
+    //    WriteGlobalVarOp_MinusDelta(14),
+    //    WriteGlobalVarOp_RemoveAtIndex(15),
+```
+
+
+
 ### 在MVEL里执行Action（动作）
 
 1. 先定义动作参数，可参考文档里的动作模型来定义：
