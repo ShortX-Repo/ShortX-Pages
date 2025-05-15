@@ -67,7 +67,9 @@ wifiPasswords;
 
 MVEL里还支持常用的ShortX 操作，通过 `shortx`来调用。
 
-目前支持的API如下：
+全部API <a href="../../javadoc/tornaco/apps/shortx/core/rule/script/api/ScriptShortXApi.html" target="_blank">查看 Javadoc</a>
+
+常用API如下：
 
 #### 读取全局变量
 ```kotlin
@@ -100,19 +102,18 @@ shortx.writeGlobalVarWithOp("varName", "value", 3);
 ```
 
 
-
-### 在MVEL里执行Action（动作）
+#### 在MVEL里执行Action（动作）
 
 1. 先定义动作参数，可参考文档里的动作模型来定义：
 
-<a href="../../javadoc/index.html" target="_blank">查看 Javadoc</a>
+<a href="../../javadoc/tornaco/apps/shortx/core/proto/action/package-summary.html" target="_blank">查看 Javadoc</a>
 
 
-3. 调用actionEvaluator来执行动作
+2. 调用shortx来执行动作
 
 例如：
 
 ```java
 action = ShowAlertDialog.newBuilder().setTitle("Test").setMessage("Hello world").build();
-actionEvaluator.evaluate(action);
+shortx.executeAction(action);
 ```
