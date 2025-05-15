@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a7436a26","path":"/zh/guide/var.html","title":"变量","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"上下文变量","slug":"上下文变量","link":"#上下文变量","children":[]}],"git":{"updatedTime":1705306428000,"contributors":[{"name":"Tornaco","email":"Tornaco@163.com","commits":1}]},"filePathRelative":"zh/guide/var.md"}');export{e as data};

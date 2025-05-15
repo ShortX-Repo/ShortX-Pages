@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1992bafe","path":"/en/guide/install_guide.html","title":"安装与激活","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1705305169000,"contributors":[{"name":"Tornaco","email":"Tornaco@163.com","commits":1}]},"filePathRelative":"en/guide/install_guide.md"}');export{e as data};

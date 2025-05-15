@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-c875e0c8","path":"/zh/guide/install_guide.html","title":"安装与激活","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1705306428000,"contributors":[{"name":"Tornaco","email":"Tornaco@163.com","commits":1}]},"filePathRelative":"zh/guide/install_guide.md"}');export{e as data};
